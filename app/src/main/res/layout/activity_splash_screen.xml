@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+   >
+    android:orientation="vertical"
+    <TextView
+        android:padding="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ebook Online"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="264dp"
+        android:src="@drawable/s3"></ImageView>
+
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="347dp"
+        android:layout_height="168dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="160dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:text="Log In"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            ></Button>
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="160dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Sign In"
+            android:textColor="@color/white"></Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>

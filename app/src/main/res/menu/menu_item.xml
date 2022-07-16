@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profile" android:icon="@drawable/list" android:title="Profile"></item>
+    <item android:id="@+id/connectus" android:icon="@drawable/list" android:title="ConnectUs"></item>
+    <item android:id="@+id/SignOut" android:icon="@drawable/list" android:title="Sign Out"></item>
+    /*<item android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"></item>*/
+</menu>
+
